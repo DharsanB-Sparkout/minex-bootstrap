@@ -1,0 +1,531 @@
+/* @media (max-width: 1399px){
+
+} */
+@media (max-width: 1199px){
+h1{
+   font-size: 50px;
+   line-height: 55px;
+}
+
+.searchbar{
+    width: 815px;
+}
+.sales-and-investment, .sales-and-investment-detail, .register,.mining-project {
+    width: auto;
+}
+.owl-carousel .owl-nav .owl-prev {
+    top: 26%;
+}
+.owl-carousel .owl-nav .owl-next{
+    top: 25%;
+}
+.mining-project-logo {
+    top: -73px;
+    right: 0px;
+}
+.footer-head{
+    padding-bottom: 4px;
+}
+}
+
+
+@media (max-width: 991px){
+.mine-x-logo{
+    width: 170px;
+    height: 54px;
+}
+h1{
+    font-size: 40px;
+    width: 700px;
+    line-height: 50px;
+}
+.searchbar{
+    width: 700px;
+    padding: 10px;
+}
+input{
+    width: 350px;
+}
+::placeholder{
+    font-size: 15px;
+}
+.filterbtn {
+    padding: 10px 0px;
+    width: 115px;
+}
+.searchbtn{
+    padding: 10px 0px;
+    width: 115px;
+}
+.projects {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.discover{
+    font-size: 17px;
+    line-height: 26px;
+}
+h5{
+    font-size: 25px;
+    line-height: 27px;
+}
+.view-all-btn {
+    line-height: 17px;
+    padding: 8px 0px;
+    width: 100px;
+}
+.features {
+    padding-bottom: 24px;
+}
+.date {
+    line-height: 15px;
+}
+.about-project {
+    font-size: 17px;
+    line-height: 25px;
+    height: auto;
+}
+.product-detail{
+    padding-top: 12px
+}
+.countries{
+    padding-bottom: 8px;
+}
+.owl-carousel .owl-nav .owl-prev{
+    top: 28%;
+}
+.owl-carousel .owl-nav .owl-next{
+    top: 27%;
+}
+.commodities {
+    padding: 50px 0px;
+}
+.miningprojects{
+    padding: 50px 0px;
+}
+.customers{
+    padding: 50px 0px;
+}
+.buyer-and-seller {
+    padding-bottom: 25px;
+}
+.detailed-step {
+    padding-left: 32px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.procedure {
+    padding: 30px 0px;
+    gap: 15px;
+}
+.overview {
+    font-size: 17px;
+    line-height: 25px;
+}
+.overview-and-project {
+    gap: 8px;
+    padding: 13px 0px;
+    border-left: 5px solid #C55A11;
+}
+.detailed-step {
+    padding-left: 27px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.register {
+    font-size: 17px;
+    line-height: 23px;
+}
+.procedure {
+    padding: 25px 0px;
+    gap: 10px;
+}
+.details {
+    font-size: 17px;
+    line-height: 26px;
+}
+.list-your-project-btn {
+    line-height: 17px;
+    padding: 10px 20px;
+    font-size: 15px;
+
+}
+.how-it-works-btn{
+    line-height: 17px;
+    padding: 10px 20px;
+    white-space: no-wrap;
+    font-size: 15px;
+
+}
+.sales-and-investment {
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+.sales-and-investment-detail {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 15px;
+}
+.projects-btn {
+    font-size: 12px;
+    padding: 8px 0px;
+    width: 140px;
+
+}
+.mining-project-logo{
+    top: -20px;
+    right: 80px;
+    height: 150px;
+    width: 150px;
+}
+.mining-img{
+    height: 431px ;
+    width: 400px;
+}
+.footer {
+    padding: 50px 0px 0px 0px ;
+}
+.demo {
+    padding: 0px ;
+}
+.navbuttons {
+    gap: 10px;
+}
+.signin {
+    line-height: 18px;
+    padding: 8px 0px;
+}
+.join {
+    line-height: 18px;
+    padding: 8px 0px;
+}
+.navbar-toggler {
+    font-size: 15px;
+}
+.mining-logo{
+    display: flex;
+    justify-content: center;
+
+}
+
+}
+
+
+@media (max-width: 767px){
+
+
+    .miningassets {
+        padding: 70px 0px
+    }
+    h1{
+        font-size: 35px;
+        width: 500px;
+        line-height: 45px;
+    }
+
+    .searchbar{
+        width: 500px;
+        padding: 8px;
+        bottom: -30px;
+    }
+    input{
+        width: 150px;
+    }
+    ::placeholder{
+        font-size: 15px;
+    }
+    .filter-icon{
+        width: 20px;
+        height: 19px;
+    }
+    .bi-search{
+        font-size: 16px;
+    }
+    .filterbtn {
+        padding: 8px 0px;
+        width: 100px;
+        margin-right: 6px;
+    }
+    .searchbtn{
+        padding: 8px 0px;
+        width: 100px;
+    }
+
+    .discover{
+        font-size: 17px;
+        line-height: 26px;
+    }
+    h5{
+        font-size: 27px;
+        line-height: 35px;
+    }
+    .view-all-btn {
+        line-height: 17px;
+        padding: 10px 0px;
+        width: 115px;
+    }
+    .features {
+        padding-bottom: 24px;
+    }
+    .date {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .about-project {
+        font-size: 17px;
+        line-height: 25px;
+        height: auto;
+    }
+    .country {
+        font-size: 13px;
+        line-height: 18px;
+        padding-left: 8px;
+    }
+    .price {
+        font-size: 13px;
+        line-height: 18px;
+        padding-left: 8px;
+    }
+    .location{
+        height: 18px;
+        width: 18px;
+    }
+    .dollar{
+        height: 18px;
+        width: 18px;
+    }
+    .product-detail{
+        padding-top: 12px
+    }
+    .countries{
+        padding-bottom: 8px;
+    }
+    .commodities {
+        padding: 30px 0px;
+    }
+    .miningprojects{
+        padding: 30px 0px;
+    }
+    .customers{
+        padding: 30px 0px;
+    }
+    .projects {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    .owl-carousel .owl-nav .owl-prev{
+        top: 34%;
+    }
+    .owl-carousel .owl-nav .owl-next{
+        top: 34%;
+    }
+    .footer{
+      padding: 30px 0px 0px 0px;
+    }
+    .mining-project-logo{
+        top: -15px;
+        right: 30px;
+        height: 125px;
+        width: 125px;
+    }
+    .mining-img{
+        height: 381px ;
+        width: 350px;
+    }
+    
+    .details {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+@media (max-width: 575px){
+
+    .mine-x-logo{
+        width: 160px;
+        height: 45px;
+    }
+    .miningassets {
+        padding: 60px 0px
+    }
+    h1{
+        font-size: 30px;
+        width: auto;
+        line-height: 40px;
+    }
+    h5 {
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .discover {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .view-all-btn {
+        line-height: 15px;
+        padding: 8px 12px;
+        width: auto;
+        font-size: 14px;
+    }
+    .features {
+        padding-bottom: 10px;
+    }
+    .overview-and-project {
+        gap: 5px;
+        padding: 8px 0px;
+        border-left: 5px solid #C55A11;
+    }
+    .detailed-step {
+        padding: 18px 0px;
+        padding-left: 20px;
+    }
+    .register {
+        font-size: 15px;
+        line-height:20px;
+    }
+    .procedure {
+        padding: 18px 0px;
+        gap: 8px;
+    }
+    .details {
+        font-size: 15px;
+        line-height: 20px;
+        align-self: center;
+    }
+    .list-your-project-btn {
+        line-height: 15px;
+        padding: 9px 15px;
+        font-size: 14px;
+    }
+    .how-it-works-btn {
+        line-height: 15px;
+        padding: 9px 15px;
+        white-space: no-wrap;
+        font-size: 14px;
+    }
+    .buyer-and-seller {
+        padding-bottom: 10px;
+    }
+    .sales-and-investment {
+        margin-top: 12px;
+        margin-bottom: 10px;
+        line-height: 20px;
+        font-size: 18px;
+    }
+    .card {
+        padding: 18px;
+    }
+    .sales-and-investment-detail {
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 12px;
+    }
+    .projects-btn {
+        padding: 6px 6px;
+        width: auto;
+    }
+    .searchbar{
+        width: auto;
+        padding: 5px;
+        bottom: -24px;
+    }
+    input{
+        width: 70px;
+    }
+    ::placeholder{
+        font-size: 14px;
+    }
+    .filter-icon{
+        width: 18px;
+        height: 17px;
+    }
+    .bi-search{
+       font-size: 16px;
+    }
+    .filterbtn {
+        padding: 5px 0px;
+        width: 70x;
+        margin-right: 4px;
+        font-size: 14px;
+    }
+    .searchbtn{
+        padding: 5px 0px;
+        width: 70px;
+        font-size: 14px;
+    }
+    .owl-carousel .owl-nav .owl-prev{
+        top: 36%;
+        left: -15px ;      
+    }
+    .owl-carousel .owl-nav .owl-next{
+        top: 36%;
+        right: -15px ;
+    }
+
+    .linkedin {
+        height: 40px;
+        width: 40px;
+    }
+    .linked-icon{
+        height: 20px;
+        width: 20px
+    }
+    .footer-icon-head{
+        width: 200px;
+        height: 65px;
+    }
+    .mining-project-logo {
+        top: -10px;
+        right: 80px;
+        height: 100px;
+        width: 100px;
+    }
+    .mining-img {
+        height: 301px;
+        width: 270px;
+    }
+    .projects {
+        padding-top: 40px;
+        padding-bottom: 0px;
+    }
+    .commodities {
+        padding: 20px 0px;
+    }
+    .miningprojects {
+        padding: 20px 0px;
+    }
+    .customers {
+        padding: 20px 0px;
+    }
+    .footer {
+        padding: 20px 0px 0px 0px;
+    }
+    .product-and-date {
+        padding-bottom: 0px;
+    }
+    .product-detail {
+        padding-top: 4px;
+    }
+    .countries {
+        padding-bottom: 4px;
+    }
+    .signin {
+        line-height: 16px;
+        padding: 6px 0px;
+        width: 80px;
+    }
+    .join {
+        line-height: 16px;
+        padding: 6px 0px;
+        width: 80px;
+    }
+    .navbar-toggler {
+        font-size: 13px;
+    }
+    .top-up{
+        right: 30px;
+        padding: 5px;
+        height: 36px;
+        width: 35px;
+    }
+    
+}
