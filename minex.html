@@ -17,50 +17,29 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-    
     <!-- carousel cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-
     <!-- css and responsive-->
-    <link rel="stylesheet" href="assest/css/style.css" >
-    <link rel="stylesheet" href="assest/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/style.css" >
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
     <header class="navigation sticky-top">
-        <!-- <nav class="navbar  navbar-expand-lg">
-            <div class="container py-2">
-              
-             
-               <a herf="void(0)" class="navbar-brand"><img src="./assest/image/icon/Group 34808.svg" alt="minexlogo"></a>
-
-                <div class="d-flex align-items-center  navbuttons" >
-                  <a herf="void(0)" class="workingmodel text-decoration-none fw-normal lh-base demo">How it Works</a>
-                  <div class="d-flex navbuttons">
-                    <a herf="void(0)" class="btn fs-6 fw-medium rounded text-capitalize signin">sign in</a>
-                    <a herf="void(0)" class="btn fs-6 fw-medium text-capitalize join">join</a>
-                  </div>
-                </div>
-              </div>
-              
-            </div> -->
-          <!-- </nav> -->
-
-
-        
-
-
-
+      
         <nav class="navbar  navbar-expand-lg ">
           <div class="container">
-            <a herf="javascript:void(0)" class="navbar-brand"><img src="./assest/image/icon/Group 34808.svg" alt="minexlogo" class="mine-x-logo" /></a>
+            <a herf="javascript:void(0)" class="navbar-brand"><img src="assets/images/icons/header-logo.svg" alt="minexlogo" height="54" width="185" class="mine-x-logo img-fluid" /></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+              <span class="fa fa-bars navbar-toggler-icon "></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-              <div class="d-flex flex-column flex-lg-row align-items-lg-center  align-items-end  navbuttons" >
+              <div class="d-flex flex-column flex-lg-row align-items-lg-center  align-items-start  navbuttons" >
                 <a href="javascript:void(0)" class="workingmodel text-decoration-none fw-normal lh-base demo">How it Works</a>
                 <div class="d-flex  flex-column flex-lg-row navbuttons">
                   <a href="javascript:void(0)" class="btn fs-6 fw-medium rounded text-capitalize signin">sign in</a>
@@ -73,35 +52,41 @@
         </nav>
 </header>
 
-<section class="miningassets position-relative">
+<section class="miningassets position-relative ">
+<div class="container">
   <div class="d-flex  justify-content-center leadingmarketplace ">
-    <h1 class="text-center fw-semibold ">The world's leading marketplace <span class="for-mining-assets">for mining assets</span></h1>
+    <h1 class="text-center fw-semibold ">The world's leading marketplace <span class="for-mining-assets d-block">for mining assets</span></h1>
   </div>
-  <div class="d-flex justify-content-center">
-   <div class="d-flex  align-items-center justify-content-between searchbar position-absolute ">
-    <div class="d-flex align-items-center justify-content-center fs-6 fw-normal lh-base">
+
+  <div class="d-flex justify-content-center ">
+
+   <div class="d-flex  align-items-center justify-content-between position-absolute searchbar ">
+    <div class="d-flex align-items-center justify-content-center fs-6 fw-normal lh-base w-100 pe-2 pe-md-5">
       <i class="bi bi-search"></i>
       <input type="search" placeholder="Search by region, commodity, asset name or keyword" >
     </div>
     <div class="d-flex" >
       <button class="btn  fw-medium lh-base filterbtn">
             <svg xmlns="http://www.w3.org/2000/svg" class="filter-icon" viewBox="0 0 25 24" fill="none">
-            <path d="M13.5 4H3.5" stroke="#3C3C4C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M11.5 19H3.5" stroke="#3C3C4C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M21.5 19H17.5" stroke="#3C3C4C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M21.5 11.5H11.5" stroke="#3C3C4C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M21.5 4H19.5" stroke="#3C3C4C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M5.5 11.5H3.5" stroke="#3C3C4C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M15 2C15.4659 2 15.6989 2 15.8827 2.07612C16.1277 2.17761 16.3224 2.37229 16.4239 2.61732C16.5 2.80109 16.5 3.03406 16.5 3.5V4.5C16.5 4.96594 16.5 5.19891 16.4239 5.38268C16.3224 5.62771 16.1277 5.82239 15.8827 5.92388C15.6989 6 15.4659 6 15 6C14.5341 6 14.3011 6 14.1173 5.92388C13.8723 5.82239 13.6776 5.62771 13.5761 5.38268C13.5 5.19891 13.5 4.96594 13.5 4.5V3.5C13.5 3.03406 13.5 2.80109 13.5761 2.61732C13.6776 2.37229 13.8723 2.17761 14.1173 2.07612C14.3011 2 14.5341 2 15 2Z" stroke="#3C3C4C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M13 17C13.4659 17 13.6989 17 13.8827 17.0761C14.1277 17.1776 14.3224 17.3723 14.4239 17.6173C14.5 17.8011 14.5 18.0341 14.5 18.5V19.5C14.5 19.9659 14.5 20.1989 14.4239 20.3827C14.3224 20.6277 14.1277 20.8224 13.8827 20.9239C13.6989 21 13.4659 21 13 21C12.5341 21 12.3011 21 12.1173 20.9239C11.8723 20.8224 11.6776 20.6277 11.5761 20.3827C11.5 20.1989 11.5 19.9659 11.5 19.5V18.5C11.5 18.0341 11.5 17.8011 11.5761 17.6173C11.6776 17.3723 11.8723 17.1776 12.1173 17.0761C12.3011 17 12.5341 17 13 17Z" stroke="#3C3C4C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M10 9.5C10.4659 9.5 10.6989 9.5 10.8827 9.57612C11.1277 9.67761 11.3224 9.87229 11.4239 10.1173C11.5 10.3011 11.5 10.5341 11.5 11V12C11.5 12.4659 11.5 12.6989 11.4239 12.8827C11.3224 13.1277 11.1277 13.3224 10.8827 13.4239C10.6989 13.5 10.4659 13.5 10 13.5C9.53406 13.5 9.30109 13.5 9.11732 13.4239C8.87229 13.3224 8.67761 13.1277 8.57612 12.8827C8.5 12.6989 8.5 12.4659 8.5 12V11C8.5 10.5341 8.5 10.3011 8.57612 10.1173C8.67761 9.87229 8.87229 9.67761 9.11732 9.57612C9.30109 9.5 9.53406 9.5 10 9.5Z" stroke="#3C3C4C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M13.5 4H3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M11.5 19H3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M21.5 19H17.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M21.5 11.5H11.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M21.5 4H19.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M5.5 11.5H3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M15 2C15.4659 2 15.6989 2 15.8827 2.07612C16.1277 2.17761 16.3224 2.37229 16.4239 2.61732C16.5 2.80109 16.5 3.03406 16.5 3.5V4.5C16.5 4.96594 16.5 5.19891 16.4239 5.38268C16.3224 5.62771 16.1277 5.82239 15.8827 5.92388C15.6989 6 15.4659 6 15 6C14.5341 6 14.3011 6 14.1173 5.92388C13.8723 5.82239 13.6776 5.62771 13.5761 5.38268C13.5 5.19891 13.5 4.96594 13.5 4.5V3.5C13.5 3.03406 13.5 2.80109 13.5761 2.61732C13.6776 2.37229 13.8723 2.17761 14.1173 2.07612C14.3011 2 14.5341 2 15 2Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M13 17C13.4659 17 13.6989 17 13.8827 17.0761C14.1277 17.1776 14.3224 17.3723 14.4239 17.6173C14.5 17.8011 14.5 18.0341 14.5 18.5V19.5C14.5 19.9659 14.5 20.1989 14.4239 20.3827C14.3224 20.6277 14.1277 20.8224 13.8827 20.9239C13.6989 21 13.4659 21 13 21C12.5341 21 12.3011 21 12.1173 20.9239C11.8723 20.8224 11.6776 20.6277 11.5761 20.3827C11.5 20.1989 11.5 19.9659 11.5 19.5V18.5C11.5 18.0341 11.5 17.8011 11.5761 17.6173C11.6776 17.3723 11.8723 17.1776 12.1173 17.0761C12.3011 17 12.5341 17 13 17Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M10 9.5C10.4659 9.5 10.6989 9.5 10.8827 9.57612C11.1277 9.67761 11.3224 9.87229 11.4239 10.1173C11.5 10.3011 11.5 10.5341 11.5 11V12C11.5 12.4659 11.5 12.6989 11.4239 12.8827C11.3224 13.1277 11.1277 13.3224 10.8827 13.4239C10.6989 13.5 10.4659 13.5 10 13.5C9.53406 13.5 9.30109 13.5 9.11732 13.4239C8.87229 13.3224 8.67761 13.1277 8.57612 12.8827C8.5 12.6989 8.5 12.4659 8.5 12V11C8.5 10.5341 8.5 10.3011 8.57612 10.1173C8.67761 9.87229 8.87229 9.67761 9.11732 9.57612C9.30109 9.5 9.53406 9.5 10 9.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
             Filters
       </button>
       <button class="btn btn  fw-medium lh-base searchbtn">Search</button>
     </div>
+   </div>
   </div>
 </div>
+
+
 </section>
 
 
@@ -119,7 +104,12 @@
 
     <div class="owl-carousel owl-theme">
       <div class="item">
-        <img src="./assest/image/energy-metals.png" alt="energy-metals-icon">
+        <picture class="position-relative">
+          <source type="image/webp" srcset="assets/images/energy-metals.webp">
+          <source type="image/jpg" srcset="assets/images/energy-metals.png">
+          <img loading="lazy" data-src="assets/images/energy-metals.png" width="306" height="172" alt="energy-metals" title="energy-metals" class="img-fluid">
+        </picture>
+        <div class="d-flex align-items-center justify-content- position-absolute sold "><div class="label sold-img-color"></div>sold</div>
         <div>
           <div class="pt-2 pt-sm-3">
             <div class="d-flex justify-content-between product-and-date ">
@@ -148,7 +138,12 @@
       </div>
 
       <div class="item">
-        <img src="./assest/image/energy-metals.png" alt="energy-metals-icon">
+        <picture class="position-relative">
+          <source type="image/webp" srcset="assets/images/energy-metals.webp">
+          <source type="image/jpg" srcset="assets/images/energy-metals.png">
+          <img loading="lazy" data-src="assets/images/energy-metals.png" width="306" height="172" alt="energy-metals" title="energy-metals" class="img-fluid">
+        </picture>
+        <div class="d-flex align-items-center justify-content- position-absolute sold "><div class="label sold-img-color"></div>sold</div>
         <div>
           <div class=" pt-2 pt-sm-3">
             <div class="d-flex justify-content-between product-and-date ">
@@ -177,7 +172,12 @@
       </div>
 
       <div class="item">
-        <img src="./assest/image/base-metals.png" alt="energy-metals-icon">
+        <picture class="position-relative">
+          <source type="image/webp" srcset="assets/images/base-metals.webp">
+          <source type="image/jpg" srcset="assets/images/base-metals.png">
+          <img loading="lazy" data-src="assets/images/base-metals.png" width="306" height="172" alt="base-metals" title="base-metals" class="img-fluid">
+        </picture>
+        <div class="d-flex align-items-center justify-content- position-absolute sold "><div class="label for-sale-color"></div>for sale</div>
         <div>
           <div class="pt-2 pt-sm-3">
             <div class="d-flex justify-content-between product-and-date ">
@@ -206,7 +206,12 @@
       </div>
 
       <div class="item">
-        <img src="./assest/image/bulk commodities.png" alt="energy-metals-icon">
+        <picture class="position-relative">
+          <source type="image/webp" srcset="assets/images/bulk-commodities.webp">
+          <source type="image/jpg" srcset="assets/images/bulk-commodities.png">
+          <img loading="lazy" data-src="assets/images/bulk-commodities.png" width="306" height="172" alt="bulk-commodities" title="bulk-commodities" class="img-fluid">
+        </picture>
+        <div class="d-flex align-items-center justify-content- position-absolute sold "><div class="label farm-in-color"></div>Farm in</div>
         <div>
           <div class="pt-2 pt-sm-3">
             <div class="d-flex justify-content-between product-and-date ">
@@ -235,7 +240,12 @@
       </div>
 
       <div class="item">
-        <img src="./assest/image/precious Metals.png" alt="energy-metals-icon">
+        <picture class="position-relative">
+          <source type="image/webp" srcset="assets/images/precious-metals.webp">
+          <source type="image/jpg" srcset="assets/images/precious-metals.png">
+          <img loading="lazy" data-src="assets/images/precious-metals.png" width="306" height="172" alt="precious-metals" title="precious-metals" class="img-fluid">
+        </picture>
+        <div class="d-flex align-items-center justify-content- position-absolute sold"><div class="label join-venture"></div>Join-Venture</div>
         <div>
           <div class="pt-2 pt-sm-3">
             <div class="d-flex justify-content-between product-and-date ">
@@ -279,7 +289,12 @@
     <div class="owl-carousel owl-theme">
 
       <div class="item">
-        <img src="./assest/image/precious Metals.png" alt="energy-metals-icon">
+        <picture class="position-relative">
+          <source type="image/webp" srcset="assets/images/precious-metals.webp">
+          <source type="image/jpg" srcset="assets/images/precious-metals.png">
+          <img loading="lazy" data-src="assets/images/precious-metals.png" width="306" height="172" alt="precious-metals" title="precious-metals" class="img-fluid">
+        </picture>  
+        <div class="d-flex align-items-center justify-content- position-absolute sold "><div class="label join-venture"></div>Join-venture</div>
         <div>
           <div class="pt-2 pt-sm-3">
             <div class="d-flex justify-content-between product-and-date ">
@@ -308,7 +323,12 @@
       </div>
 
       <div class="item">
-        <img src="./assest/image/precious Metals.png" alt="energy-metals-icon">
+        <picture class="position-relative">
+          <source type="image/webp" srcset="assets/images/precious-metals.webp">
+          <source type="image/jpg" srcset="assets/images/precious-metals.png">
+          <img loading="lazy" data-src="assets/images/precious-metals.png" width="306" height="172" alt="precious-metals" title="precious-metals" class="img-fluid">
+        </picture>    
+        <div class="d-flex align-items-center justify-content- position-absolute sold "><div class="label join-venture"></div>Join-venture</div>
         <div>
           <div class="pt-2 pt-sm-3">
             <div class="d-flex justify-content-between product-and-date ">
@@ -337,7 +357,12 @@
       </div>
 
       <div class="item">
-        <img src="./assest/image/bulk commodities.png" alt="energy-metals-icon">
+        <picture class="position-relative">
+          <source type="image/webp" srcset="assets/images/bulk-commodities.webp">
+          <source type="image/jpg" srcset="assets/images/bulk-commodities.png">
+          <img loading="lazy" data-src="assets/images/bulk-commodities.png" width="306" height="172" alt="bulk-commodities" title="bulk-commodities" class="img-fluid">
+        </picture>
+        <div class="d-flex align-items-center justify-content- position-absolute sold "><div class="label farm-in-color"></div>Farm In</div>    
         <div>
           <div class="pt-2 pt-sm-3">
             <div class="d-flex justify-content-between product-and-date ">
@@ -366,7 +391,12 @@
       </div>
 
       <div class="item">
-        <img src="./assest/image/energy-metals.png" alt="energy-metals-icon">
+        <picture class="position-relative">
+          <source type="image/webp" srcset="assets/images/energy-metals.webp">
+          <source type="image/jpg" srcset="assets/images/energy-metals.png">
+          <img loading="lazy" data-src="assets/images/energy-metals.png" width="306" height="172" alt="energy-metals" title="energy-metals" class="img-fluid">
+        </picture>
+        <div class="d-flex align-items-center justify-content- position-absolute sold"><div class="label sold-img-color"></div>Sold</div>
         <div>
           <div class="pt-2 pt-sm-3">
             <div class="d-flex justify-content-between product-and-date ">
@@ -395,7 +425,12 @@
       </div>
 
       <div class="item">
-        <img src="./assest/image/base-metals.png" alt="energy-metals-icon">
+        <picture class="position-relative">
+          <source type="image/webp" srcset="assets/images/base-metals.webp">
+          <source type="image/jpg" srcset="assets/images/base-metals.png">
+          <img loading="lazy" data-src="assets/images/base-metals.png" width="306" height="172" alt="base-metals" title="base-metals" class="img-fluid">
+        </picture>
+        <div class="d-flex align-items-center justify-content- position-absolute sold "><div class="label for-sale-color"></div>For Sale</div>
         <div>
           <div class="pt-2 pt-sm-3">
             <div class="d-flex justify-content-between product-and-date ">
@@ -453,9 +488,17 @@
         </div>
       </div>
       <div class="col-lg-6">
-         <div class="mining-logo position-relative">
-            <img src="assest/image/mining-project.png" alt="image" class="img-fluid mining-img" />
-            <img src="assest/image/mining-project-logo.png" alt="image" class="position-absolute mining-project-logo img-fluid" /> 
+         <div class="mining-logo position-relative ">
+          <picture>
+            <source type="image/webp" srcset="assets/images/mining-project.webp">
+            <source type="image/jpg" srcset="assets/images/mining-project.png">
+            <img loading="lazy" data-src="assets/images/mining-project.png" width="500" height="521" alt="mining-project" title="mining-project" class="img-fluid  mining-img">
+          </picture>
+          <picture>
+            <source type="image/webp" srcset="assets/images/mining-project-logo.webp">
+            <source type="image/jpg" srcset="assets/images/mining-project-logo.png">
+            <img loading="lazy" data-src="assets/images/mining-project-logo.png" width="200" height="200" alt="mining-project-logo" title="mining-project-logo" class="img-fluid position-absolute mining-project-logo">
+          </picture>
          </div>
       </div>
     </div>
@@ -465,17 +508,17 @@
 
 <section class="customers">
   <div class="container">
-    <div class="d-flex  justify-content-between buyer-and-seller">
-      <div class="d-flex flex-column justify-content-between">
+    <div class="d-flex flex-column flex-sm-row justify-content-between buyer-and-seller">
+      <div class="d-flex flex-column justify-content-between pb-2 pb-sm-0">
         <span class="discover fw-normal ">Discover</span>
         <h5 class="fw-semibold mb-0">Connecting buyers & sellers around the world</h5>
       </div>
-      <div class="d-flex align-self-end">
+      <div class="d-flex align-self-sm-end align-self-start">
         <button class="btn fw-medium  how-it-works-btn">How it Works</button>
       </div>
     </div>
     
-      <div class="row  gap-2 gap-sm-3 gap-md-4 gap-lg-0">
+      <div class="row  gap-3 gap-md-4 gap-lg-0">
         <div class="col-lg-4">
           <div class="card h-100" >
             <svg xmlns="http://www.w3.org/2000/svg" width="65" height="65" viewBox="0 0 65 65" fill="none">
@@ -502,8 +545,8 @@
               <button class="btn projects-btn d-flex align-items-center justify-content-center fw-medium">
                  Search Projects
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                <path d="M7.3992 2C4.96653 2.00438 3.69265 2.06411 2.87855 2.87835C2 3.75704 2 5.17128 2 7.99972C2 10.8282 2 12.2425 2.87855 13.1211C3.7571 13.9999 5.17112 13.9999 7.99913 13.9999C10.8271 13.9999 12.2411 13.9999 13.1197 13.1211C13.9338 12.3069 13.9935 11.0328 13.9979 8.59979" stroke="#777782" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M13.7034 2.33523L7.36523 8.71025M13.7034 2.33523C13.3742 2.00548 11.1557 2.03622 10.6867 2.04289M13.7034 2.33523C14.0328 2.66497 14.0021 4.8863 13.9954 5.3559" stroke="#777782" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M7.3992 2C4.96653 2.00438 3.69265 2.06411 2.87855 2.87835C2 3.75704 2 5.17128 2 7.99972C2 10.8282 2 12.2425 2.87855 13.1211C3.7571 13.9999 5.17112 13.9999 7.99913 13.9999C10.8271 13.9999 12.2411 13.9999 13.1197 13.1211C13.9338 12.3069 13.9935 11.0328 13.9979 8.59979" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M13.7034 2.33523L7.36523 8.71025M13.7034 2.33523C13.3742 2.00548 11.1557 2.03622 10.6867 2.04289M13.7034 2.33523C14.0328 2.66497 14.0021 4.8863 13.9954 5.3559" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
               </button>
             </div>
@@ -533,8 +576,8 @@
               <button class="btn projects-btn d-flex align-items-center justify-content-center fw-medium">
                 Upload Project
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                <path d="M7.3992 2C4.96653 2.00438 3.69265 2.06411 2.87855 2.87835C2 3.75704 2 5.17128 2 7.99972C2 10.8282 2 12.2425 2.87855 13.1211C3.7571 13.9999 5.17112 13.9999 7.99913 13.9999C10.8271 13.9999 12.2411 13.9999 13.1197 13.1211C13.9338 12.3069 13.9935 11.0328 13.9979 8.59979" stroke="#777782" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M13.7034 2.33523L7.36523 8.71025M13.7034 2.33523C13.3742 2.00548 11.1557 2.03622 10.6867 2.04289M13.7034 2.33523C14.0328 2.66497 14.0021 4.8863 13.9954 5.3559" stroke="#777782" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M7.3992 2C4.96653 2.00438 3.69265 2.06411 2.87855 2.87835C2 3.75704 2 5.17128 2 7.99972C2 10.8282 2 12.2425 2.87855 13.1211C3.7571 13.9999 5.17112 13.9999 7.99913 13.9999C10.8271 13.9999 12.2411 13.9999 13.1197 13.1211C13.9338 12.3069 13.9935 11.0328 13.9979 8.59979" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M13.7034 2.33523L7.36523 8.71025M13.7034 2.33523C13.3742 2.00548 11.1557 2.03622 10.6867 2.04289M13.7034 2.33523C14.0328 2.66497 14.0021 4.8863 13.9954 5.3559" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
               </button>
             </div>
@@ -559,8 +602,8 @@
               <button class="btn projects-btn d-flex align-items-center justify-content-center fw-medium">
                 Sign up/Join
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                <path d="M7.3992 2C4.96653 2.00438 3.69265 2.06411 2.87855 2.87835C2 3.75704 2 5.17128 2 7.99972C2 10.8282 2 12.2425 2.87855 13.1211C3.7571 13.9999 5.17112 13.9999 7.99913 13.9999C10.8271 13.9999 12.2411 13.9999 13.1197 13.1211C13.9338 12.3069 13.9935 11.0328 13.9979 8.59979" stroke="#777782" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M13.7034 2.33523L7.36523 8.71025M13.7034 2.33523C13.3742 2.00548 11.1557 2.03622 10.6867 2.04289M13.7034 2.33523C14.0328 2.66497 14.0021 4.8863 13.9954 5.3559" stroke="#777782" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M7.3992 2C4.96653 2.00438 3.69265 2.06411 2.87855 2.87835C2 3.75704 2 5.17128 2 7.99972C2 10.8282 2 12.2425 2.87855 13.1211C3.7571 13.9999 5.17112 13.9999 7.99913 13.9999C10.8271 13.9999 12.2411 13.9999 13.1197 13.1211C13.9338 12.3069 13.9935 11.0328 13.9979 8.59979" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M13.7034 2.33523L7.36523 8.71025M13.7034 2.33523C13.3742 2.00548 11.1557 2.03622 10.6867 2.04289M13.7034 2.33523C14.0328 2.66497 14.0021 4.8863 13.9954 5.3559" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
               </button>
             </div>
@@ -576,10 +619,10 @@
 
 <footer class="footer">
   <div class="container">
-    <div class="row gap-3   gap-lg-5">
+    <div class="row gap-3   gap-lg-4">
       <div class="col-lg-3 d-flex flex-column justify-content-between">
         <a href="javascript:void(0)" class="logo-footer">
-          <img src="assest/image/icon/footer-logo.svg" class="footer-icon-head" />
+          <img src="assets/images/icons/footer-logo.svg" class="footer-icon-head" alt="footer-logo" height="275" width="81" class="img-fluid"/>
         </a>
         <div>
           <p class="reserve fw-normal mb-0 pb-1 pb-sm-0">All rights reserved by The MineXchange.</p>
@@ -605,7 +648,7 @@
               <li><a class="footer-ctn fw-normal text-decoration-none " href="javascript:void(0)">(08) 9097 1856</a></li>
             </ul>
           </div>
-          <div class="pb-3 pb-lg-0">
+          <div class="pb-3 pb-lg-2 pb-xl-0">
             <h4 class="footer-head  fw-normal  pb-1  pb-xl-3 mb-0">Enquiry</h4>
             <ul class="p-0 mb-1">
               <li><a class="footer-ctn fw-normal text-decoration-none " href="mailto:generalenquiry@minex.com">generalenquiry@minex.com</a></li>
