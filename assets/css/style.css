@@ -385,13 +385,14 @@ h5{
     padding-right: 65px; */
 }
 .mining-project-logo{
-    top: 0px;
+    top: -73px;
     right: 0px;
     height: 200px;
     width: 200px;
 }
 .mining-logo{
     padding-top: 17px;
+    padding-right: 65px;
 }
 .customers{
     padding: 100px 0px;
@@ -488,9 +489,13 @@ h5{
     z-index:2;
     background-color: #fff;
 }
-.bi-chevron:focus{
-    visibility: visible;
+.bi-chevron-left::before{
+    color:black;
 }
+.bi-chevron-right::before{
+    color:black;
+}
+
 
 
 

@@ -166,12 +166,9 @@ h5{
     width: 140px;
 
 }
-/* .mining-project-logo{
-    top: -20px;
-    right: 80px;
-    height: 150px;
-    width: 150px;
-} */
+.mining-project-ctn{
+    gap: 60px;
+}
 
 .demo {
     padding: 0px ;
@@ -285,12 +282,6 @@ h5{
     .miningassets, .projects, .commodities, .miningprojects, .customers, .footer{
         padding: 40px 0px
     }
-    /* .mining-project-logo{
-        top: -15px;
-        right: 30px;
-        height: 125px;
-        width: 125px;
-    } */
     .details {
         font-size: 16px;
         line-height: 20px;
@@ -438,10 +429,10 @@ h5{
         padding-bottom: 0px;
     }
     .product-detail {
-        padding-top: 4px;
+        padding-top: 10px;
     }
     .countries {
-        padding-bottom: 4px;
+        padding-bottom: 7px;
     }
     .signin {
         line-height: 16px;
