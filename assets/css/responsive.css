@@ -372,7 +372,7 @@ h5{
         width: auto;
     }
     .searchbar{
-        padding: 5px;
+        padding: 6px;
         bottom: -24px;
     }
     ::placeholder{
@@ -395,6 +395,9 @@ h5{
     .searchbtn{
         padding: 5px 0px;
         width: 70px;
+        font-size: 14px;
+    }
+    input{
         font-size: 14px;
     }
     .owl-carousel .owl-nav .owl-prev{

@@ -20,7 +20,7 @@ body{
 .fa-bars:before {
     font-size: 18px;
 }
-.fa-bars:hover, .fa-bars:focus{
+.navbar-toggler:hover  .fa-bars, .navbar-toggler:focus  .fa-bars {
     color: #FAF3E5;
 }
 .navbar-toggler{
@@ -28,6 +28,7 @@ body{
 }
 .navbar-toggler:hover, .navbar-toggler:focus {
     background-color: #C55A11;
+    
 }
 .navbar-toggler-icon {
     background-image: none;
@@ -117,7 +118,6 @@ input:focus, input:focus-within{
     font-size: 17px;
 }
 .search{
-    
     gap:12px;
 }
 .filter-icon{
@@ -149,7 +149,6 @@ input:focus, input:focus-within{
     background-color: #C55A11;
     color: #FAF3E5;
 }
-
 .projects{
     padding-top: 100px;
     padding-bottom: 100px;
@@ -495,7 +494,9 @@ h5{
 .bi-chevron-right::before{
     color:black;
 }
-
+::marker{
+    color: transparent;
+}
 
 
 
